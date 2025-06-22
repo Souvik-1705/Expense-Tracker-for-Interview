@@ -1,0 +1,25 @@
+.sign-up {
+  max-width: 400px;
+  margin: auto;
+  padding: 2rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-top: 2rem;
+}
+
+.sign-up input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 1rem;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+}
+
+.sign-up button {
+  width: 100%;
+  padding: 10px;
+  background-color: #3f51b5;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}

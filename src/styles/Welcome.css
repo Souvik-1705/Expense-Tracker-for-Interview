@@ -1,0 +1,9 @@
+ .logoutBtn{
+    padding: 10px 20px;
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+  }

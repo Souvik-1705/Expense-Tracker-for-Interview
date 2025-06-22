@@ -1,0 +1,28 @@
+.verify-email-box {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.verify-email-box button {
+  padding: 10px 20px;
+  background-color: orange;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.success-msg {
+  color: green;
+  margin-top: 1rem;
+}
+
+.error-msg {
+  color: red;
+  margin-top: 1rem;
+}
+
+.verified-msg {
+  color: green;
+  font-weight: bold;
+}
