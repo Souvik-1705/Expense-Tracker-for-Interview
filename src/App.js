@@ -7,6 +7,7 @@ import Login from "./pages/Login";
 import Navbar from "./components/Navbar";
 import Welcome from "./pages/Welcome";
 import CompleteProfile from "./pages/CompleteProfile";
+import ForgotPassword from "./pages/ForgotPassword";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Route path="/login" element={<Login/>}/>
       <Route path="/welcome" element={<Welcome/>}/>
       <Route path="/complete-profile" element={<CompleteProfile/>}/>
+      <Route path="/forgotPassword" element={<ForgotPassword/>}/>
      </Routes>
     </div>
   );

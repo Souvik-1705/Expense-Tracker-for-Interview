@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { auth } from "../firebase/Firebase";
 import { signInWithEmailAndPassword } from "firebase/auth";
-import { useNavigate } from "react-router-dom";
+import { useNavigate,Link } from "react-router-dom";
 import "../styles/Login.css";
 
 function Login() {
@@ -40,6 +40,9 @@ function Login() {
         <input type="email" placeholder="email" value={email} onChange={(e)=>setEmail(e.target.value)}/>
         <input type="password" placeholder="password" value={password} onChange={(e)=>setPassword(e.target.value)}/>
         <button type="submit" disabled={loading}>{loading ? "Logging In..." : "Login"}</button>
+        <p>
+          <Link to="/forgotPassword" className="forgot-link">Forgot Password</Link>
+        </p>
     </form>
     <p>Don't have an account?? <a href="/signup">Sign Up</a></p>
   </div>
